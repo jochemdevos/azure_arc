@@ -33,17 +33,6 @@
     }
     # Azure required registered resource providers
     AzureProviders          = @(
-        "Microsoft.Kubernetes",
-        "Microsoft.KubernetesConfiguration",
-        "Microsoft.HybridCompute",
-        "Microsoft.GuestConfiguration",
-        "Microsoft.HybridConnectivity",
-        "Microsoft.DeviceRegistry",
-        "Microsoft.EventGrid",
-        "Microsoft.ExtendedLocation",
-        "Microsoft.IoTOperationsOrchestrator",
-        "Microsoft.IoTOperationsMQ",
-        "Microsoft.IoTOperationsDataProcessor"
     )
 
     # Az CLI required extensions
